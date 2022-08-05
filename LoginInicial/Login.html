@@ -3,33 +3,25 @@
 <head>
     <title>Banco</title>
 </head>
-<!-- usar um arquivo separado pro css(foi dito no pdf)
-nao usar <br> POR FAVOR
-ver se os termos bgcolor, align e font ainda estao em uso -->
 
-<body bgcolor="#3CB371">
+<body bgcolor="#3CB371" style="text-align:center">
     <hr>
     <hr>
-    <!-- fechar as tags tipo -->
     <h2 align="center">
-        <!-- ^ tipo esse h2 -->
         <font face="serif" size="70%" color="white"> L&Dbank </font>
         <br>
         <br>
         <br>
-        <font color="white">Digite seu nome e sua senha abaixo:</font>
-        <FORM>
-            <!-- nao colocar palavras soltas no documento -->
-            Usuário:
-            <INPUT TYPE=TEXT NAME="Nome">
-            <br><br> Senha:
-            <INPUT TYPE=PASSWORD NAME="Senha">
-        </FORM>
-        <INPUT TYPE="button" onclick="check(this.form)" value="ENTRAR">
-        <INPUT TYPE="reset" value="LIMPAR DADOS">
+        <h2>Digite seu nome e sua senha abaixo:</h2>
+        Usuário:
+        <INPUT TYPE=TEXT id="Nome">
+        <br><br> Senha:
+        <INPUT TYPE=PASSWORD id="Senha">
+
+        <button onclick="check()">ENTRAR</button>
+        <input type="button" onclick="window.location.reload();" value="LIMPAR DADOS">
         <br><br><br><br><br><br><br>
         <h2 align="center">
-            <!-- ^ e esse -->
             <font color="white"> FEITO PARA VOCÊ! </font>
             <a href="C:\Users\0067227\Desktop\Trabalho"></a>
             <hr>
@@ -38,5 +30,6 @@ ver se os termos bgcolor, align e font ainda estao em uso -->
 
 
 </body>
+<script src="login.js"></script>
 
 </html>

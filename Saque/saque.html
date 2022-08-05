@@ -1,24 +1,40 @@
 <html>
-    <head>
-        <title>Banco</title>
-    </head>
-    <body bgcolor="#3CB371"> 
-        <hr>
-        <table class = "posicao">
-            <tr>
-                <td rowdspan = "8">
-                    <form action = "javascript:saque()" >
-                        <label>Valor a ser Sacado
-                            <input class = "saque" id = "valor" type = "number" min = "10" max = "200"/>
-                        </label>
-                    </form>
-                    <input type = "button" onclick = "window.location.reload();" value = "Novo Saque">
-                </td>
-                <td>
-                    <input id = "100" disabled />
-                    <img class = "img" align = "center" src = "C:\Users\0067227\Desktop\Trabalho\Saque\Cedulas>
-                </td>
-            </tr>
-        </table>
+
+<head>
+    <title>Banco</title>
+</head>
+
+<body bgcolor="#3CB371">
+    <hr>
+    <table class="posicao">
+        <tr>
+            <td rowdspan="8">
+                <h1>Valor a ser Sacado</h1>
+                <input class="saque" id="valor" type="number" min="1" max="200" />
+                <button onclick="sacar()">sacar</button>
+
+                <input type="button" onclick="window.location.reload();" value="Novo Saque">
+            </td>
+        </tr>
+    </table>
+    <h3 align="right">
+        <input type=text id="c200" value=" "><img src="../Saque/Cedulas/200.jpg" height="150" width="300">
+        <h3 align="right">
+            <input type=text id="c100" value=" "><img src="../Saque/Cedulas/100.jpg" height="150" width="300">
+            <h3 align="right">
+                <input type=text id="c50" value=" "><img src="../Saque/Cedulas/50.jpg" height="150" width="300">
+                <h3 align="right">
+                    <input type=text id="c20" value=" "><img src="../Saque/Cedulas/20.jpg" height="150" width="300">
+                    <h3 align="right">
+                        <input type=text id="c10" value=" "><img src="../Saque/Cedulas/10.jpg" height="150" width="300">
+                        <h3 align="right">
+                            <input type=text id="c5" value=" "><img src="../Saque/Cedulas/5.jpg" height="150" width="300">
+                            <h3 align="right">
+                                <input type=text id="c2" value=" "><img src="../Saque/Cedulas/2.jpg" height="150" width="300">
+                                <h3 align="right">
+                                    <input type=text id="c1" value=" "><img src="../Saque/Cedulas/moeda.png" height="150" width="150">
+
+</body>
+<script src="saque.js"></script>
 
 </html>
