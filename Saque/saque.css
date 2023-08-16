@@ -16,7 +16,7 @@ body {
   flex-wrap: wrap;
 }
 
-img {
+.logo {
   justify-self: start;
   position: absolute;
   left: 14px;
@@ -29,18 +29,27 @@ img {
   border-radius: 10px;
   background: #49cd3e;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   flex-wrap: wrap;
+  padding-top: 25px;
 }
 
-.saque-container h2 {
+h2.tela-valor {
   font-size: 30px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
   width: 377px;
   height: 37.006px;
-  margin-top: 20px;
+}
+
+h2.tela-notas {
+  width: 74px;
+  height: 25px;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
 }
 
 .saque-container input {
@@ -69,16 +78,52 @@ img {
   outline: none;
 }
 
-.button-saque {
-    cursor:default;
-  width: 112px;
-  height: 50px;
+div[button]{
+  cursor: default;
   border-radius: 4px;
   background: rgba(217, 217, 217, 0.67);
   font-size: 19px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+}
+
+div.sacar{
+  width: 112px;
+  height: 50px;
   margin: -90px 150px 0px;
   padding: 10px;
+}
+
+div.newSaque{
+  width: 135px;
+  height: 52px;
+  padding: 12px;
+}
+
+.notas-container{
+  width: 453px;
+  height: 396px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.notas-container div{
+  width: 197px;
+  height: 78px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.notas-container p{
+  display: block;
+
+}
+
+.notas-container img{
+  width: 160px;
+  height: 76.789px;
 }
