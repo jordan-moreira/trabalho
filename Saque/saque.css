@@ -1,0 +1,84 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #3cb371;
+  font-family: Nunito;
+  color: #fff;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+img {
+  justify-self: start;
+  position: absolute;
+  left: 14px;
+  top: 14px;
+}
+
+.saque-container {
+  width: 504px;
+  height: 548.503px;
+  border-radius: 10px;
+  background: #49cd3e;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.saque-container h2 {
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  width: 377px;
+  height: 37.006px;
+  margin-top: 20px;
+}
+
+.saque-container input {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  width: 175px;
+  height: 20px;
+  padding-left: 3px;
+  border: none;
+  background-color: transparent;
+  color: #fff;
+  border-bottom: 1px solid #000;
+}
+
+.saque-container input::placeholder {
+  color: #fff;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.saque-container input:focus {
+  outline: none;
+}
+
+.button-saque {
+    cursor:default;
+  width: 112px;
+  height: 50px;
+  border-radius: 4px;
+  background: rgba(217, 217, 217, 0.67);
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: -90px 150px 0px;
+  padding: 10px;
+}

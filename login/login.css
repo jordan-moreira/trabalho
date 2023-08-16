@@ -1,0 +1,95 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #3CB371;
+  font-family: Nunito;
+  color: #fff;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+img {
+  justify-self: start;
+  position: absolute;
+  left: 14px;
+  top: 14px;
+}
+
+h1 {
+  font-family: Merriweather;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 308px;
+  height: 63px;
+  margin: 10px 0px 20px;
+}
+
+.login-container {
+  width: 453px;
+  height: 493px;
+  border-radius: 10px;
+  background: #49CD3E;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.login-container h2{
+  font-size: 30px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+  width: 153px;
+height: 38px;
+margin-top: 25px;
+}
+
+.login-container input{
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  width: 395px;
+  height: 20px;
+  padding-left: 3px;
+  border: none;
+  background-color: transparent;
+  color: #fff;
+  border-bottom: 1px solid #000;
+}
+
+.login-container input::placeholder{
+  color: #FFF;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.login-container input:focus{
+  outline: none;
+
+}
+
+.button-confirm{
+  cursor:default;
+  width: 112px;
+height: 50px;
+border-radius: 4px;
+background: rgba(217, 217, 217, 0.67);
+font-size: 19px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding:10px;
+}
