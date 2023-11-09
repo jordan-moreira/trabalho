@@ -78,7 +78,7 @@ h2.tela-notas {
   outline: none;
 }
 
-div[button]{
+div[button] {
   cursor: default;
   border-radius: 4px;
   background: rgba(217, 217, 217, 0.67);
@@ -88,20 +88,20 @@ div[button]{
   line-height: normal;
 }
 
-div.sacar{
+div.sacar {
   width: 112px;
   height: 50px;
   margin: -90px 150px 0px;
   padding: 10px;
 }
 
-div.newSaque{
+div.newSaque {
   width: 135px;
   height: 52px;
   padding: 12px;
 }
 
-.notas-container{
+.notas-container {
   width: 453px;
   height: 396px;
   display: flex;
@@ -109,7 +109,7 @@ div.newSaque{
   flex-wrap: wrap;
 }
 
-.notas-container div{
+.notas-container div {
   width: 197px;
   height: 78px;
   display: flex;
@@ -118,12 +118,6 @@ div.newSaque{
   flex-wrap: wrap;
 }
 
-.notas-container p{
+.notas-container p {
   display: block;
-
-}
-
-.notas-container img{
-  width: 160px;
-  height: 76.789px;
 }
