@@ -1,0 +1,9 @@
+Sistema de saque bancário
+
+Equipe:
+    Jordan Geraldo Lopes Moreira
+    Thiago Leoni Dantas Vilela
+
+Menu interativo
+Sistema de saque bancário
+Otimização de escolha de cédulas
