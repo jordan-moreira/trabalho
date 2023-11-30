@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>j&t bank</title>
+    <title>J&T Bank</title>
 </head>
 <style>
     *{
@@ -33,10 +33,36 @@
     }
 
     #sobreNos{
-        height: 200px;
+        height: 100vh;
         font-family: nunito;
         font-size: 20px;
+        color: white;
+        background-color: green;
+        text-align: left;
+    }
 
+    #textoSobre{
+        align-items: center;
+        display:flex;
+    }
+
+    #saque{
+        height: 100vh;
+        font-family: nunito;
+        font-size: 20px;
+        color: black;
+        background-color: rgb(117, 222, 179);
+        text-align: left;
+    }
+
+    #textoSaque{
+        align-items: center;
+        display:flex;
+    }
+
+    .img2 {
+        width: 80%;
+        height: 80%;
     }
 
     a{
@@ -49,24 +75,41 @@
 </style>
 <body>
     <header>
-        <div class="menuBar">
-            <div><a href="#paginaInicial">pagina Inicial</a></div>
-            <div ><p>funcionalidades</p></div>
-            <div ><a href="#sobreNos">Sobe Nos</a></div>
-            <div ><a href="">login</a></div>
+        <div class="menuBar"> <!-- Barra de Menu -->
+            <div><a href="#paginaInicial">Página Inicial</a></div>
+            <div ><p>Funcionalidades</p></div>
+            <div ><a href="#sobreNos">Sobre</a></div>
+            <div ><a href="">Login ></a></div>
         </div>
     </header>
     <main>
-        <div id="paginaInicial">
-        <h4>Conforto e eficiencia?</h4>
+
+        <div id="paginaInicial"> <!-- Div página inicial do site -->
+        <h4>Conforto e Eficiência?</h4>
         <h4><span id="j">J</span>á <span id="t">T</span>emos aqui!</h4>
         </div>
-        <div id="sobreNos"><p>O nosso projeto foi desenvolvido para um trabalho da disciplina de Desenvolvimento Web, ministrada pela Professora Danielle Costa de Oliveira, onde exigia a criação de um sistema Web.
-            A decisão foi a criação de um sistema bancário, com uso de Html, CSS e Javascript, em que o sistema forneceria a menor combinação de notas para o usuário
-            
-            Alunos:
-            Jordan Moreira
-            Thiago Leoni Dantas Vilela</p></div>
+
+        <div id="sobreNos"> <!-- Div parte "sobre" do site -->
+            <br><br><br><br><h1>SOBRE</h1>
+            <div id="textoSobre">
+            <p class="p1">O nosso projeto foi desenvolvido para um trabalho da disciplina de Desenvolvimento Web, ministrada pela Professora Danielle Costa de Oliveira, onde exigia a criação de um sistema Web.<br>
+            A decisão foi a criação de um sistema bancário, com uso de Html, CSS e Javascript, em que o sistema forneceria a menor combinação de notas para o usuário.<br>
+            <br>
+            Alunos:<br>
+            Jordan Geraldo Lopes Moreira<br>
+            Thiago Leoni Dantas Vilela</p>
+            <img class="img1" src="https://images.vexels.com/media/users/3/263264/isolated/preview/11a26a1102ca38d370338cf6a91459c4-a-cone-de-banco-de-nega-cios-de-dinheiro.png">
+            </div>
+        </div>
+
+        <div id="saque"> <!-- Div parte "saque" do site -->
+                <br><br><br><br><h1>SAQUE</h1>
+                <div id="textoSaque">
+                <p class="p2">O nosso sistema disponibiliza uma eficiente contagem de notas, que facilita o usuário andar com o menor número de cédulas possível</p>
+                <img class="img2" src="https://www.diariodeinvestimentos.com.br/wp-content/uploads/2020/12/fazer-saque-bancos-digitais-caixa-eletronico-1024x638.png">
+                </div>
+        </div>
+
     </main>
 </body>
 </html>
