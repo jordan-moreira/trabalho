@@ -19,8 +19,9 @@ body {
 .logo {
   justify-self: start;
   position: absolute;
-  left: 14px;
+  left: 12px;
   top: 14px;
+  width: 50px;
 }
 
 .saque-container {
@@ -79,7 +80,7 @@ h2.tela-notas {
 }
 
 div[button] {
-  cursor: default;
+  cursor: pointer;
   border-radius: 4px;
   background: rgba(217, 217, 217, 0.67);
   font-size: 19px;

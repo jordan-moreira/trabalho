@@ -83,7 +83,7 @@ function atualizarTela(valorSaque) {
   saqueContainer.removeChild(input);
   saqueContainer.appendChild(notasContainer);
   h2.classList.value = "tela-notas";
-  h2.innerHTML = `R$${valorSaque}`;
+  h2.innerHTML = `R$${valorSaque},00`;
   button.classList.value = "newSaque";
   button.innerHTML = "Novo saque";
 }
